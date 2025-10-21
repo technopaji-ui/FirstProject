@@ -1,0 +1,51 @@
+Body{
+     background-color: #0d1c45;
+      color: #E6EDF3; 
+      font-family: "Poppins", sans-serif;
+}
+.Container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-top:50px;
+    
+
+}
+.left{
+    display: flex;
+      background-color: #1f3250;
+    color: aliceblue;
+    width: 40%;
+    text-align: center;
+    flex-flow: column;
+    
+    
+}
+.headleft{
+    background-color: #112a52;
+    display: block;
+    padding: 10px;
+
+}
+.headright{
+    background-color: #2374f6;
+    padding: 10px;
+
+}
+.pointsleft, .pointsright{
+    text-align: left;
+    padding: 10px;
+}
+.right{
+    display: flex;
+   background-color: #3B82F6; 
+    width: 40%;
+    /* height: 100px; */
+    text-align: center;
+    flex-flow: column;
+    
+}
+li {
+  margin-bottom: 15px; /* space after each point */
+  line-height: 1.6;    /* optional, makes text more readable */
+}
